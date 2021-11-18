@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Jost';
+    background-color: #52b69a;
+}
+
+.navbar {
+    background-color: #d9ed92;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.navbar ul li {
+    margin: 1rem;
+    margin-bottom: .3rem;
+    margin-right: 2rem;
+}
+
+a {
+    color: #52b69a;
+    text-decoration: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3f4238;
+    margin: 12rem 0;
+    padding: 1rem 0;
+    width: 100%;
+    color: #d9ed92;
+}
+
+.title h1 {
+    font-weight: 900;
+    font-style: italic;
+    word-spacing: .5rem;
+    font-family: 'Jost';
+}
+
+.title p {
+    font-weight: lighter;
+    letter-spacing: .2rem;
+}
+
+.hero {
+   margin: .5rem 1rem;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+}
+
+.mission h3 {
+    color: gold;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+.mission p {
+    line-height: 2rem;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    word-spacing: .1rem;
+}
+
+.hero-pics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-pics img {
+    width: 30%;
+}
+
+.quote {
+    background-color: #d9ed92;
+    padding: 4rem;
+}
+
+.quote h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.quote p {
+    text-align: center;
+}
+
+.mid-pics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mid-pics img {
+    width: 30%;
+    margin: 5rem 0;
+}
+
+.join-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gold;
+    font-style: oblique;
+}
+
+.join-us img {
+    width: 50%;
+    margin: 2rem;
+}
